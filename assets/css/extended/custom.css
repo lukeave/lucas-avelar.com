@@ -1,0 +1,38 @@
+/* ── Font: Aptos (via Google Fonts fallback chain) ── */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+
+:root {
+  --aptos-stack: "Aptos", "Source Sans 3", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+}
+
+body,
+.post-content,
+.entry-content,
+p, li, td, th, input, textarea, select, button {
+  font-family: var(--aptos-stack) !important;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+}
+
+/* ── Navigation: 30% larger ── */
+#nav a,
+.nav a,
+header nav a,
+.header nav a {
+  font-size: 1.17rem !important;   /* ~30% above PaperMod's default 0.9rem */
+  font-family: var(--aptos-stack) !important;
+  font-weight: 500;
+}
+
+/* Site title in header */
+.logo a,
+#logo a,
+header .logo {
+  font-family: var(--aptos-stack) !important;
+}
+
+/* ── Space between nav and main content ── */
+main.main,
+.main {
+  padding-top: 3rem !important;
+}

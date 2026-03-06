@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="dark">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Tableau: Inquiring Far and Beyond with Data Visualization | Lucas Avelar</title>
+<meta name="keywords" content="">
+<meta name="description" content="To experiment with Tableau, an interactive data visualization application, I acquired data in XLSX format from the National Register of Historic Places online database. The spreadsheet contained information on all the properties listed in the National Register until 2022 for local, state, national, and international significance. It also displayed geographic information with street addresses, cities, counties, and states for each of the property.
+
+     
+
+
+Tableau is highly sophisticated, and I would need much more extra time and training to figure out how to properly create visualizations out of large datasets like the NRHP data. Knowing that I could not break the software or the dataset, I tried some things out. Here is what I could come up with:">
+<meta name="author" content="avelar_adm">
+<link rel="canonical" href="http://localhost:1313/uncategorized/tableau-inquiring-far-and-beyond-with-data-visualization/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7aec2ba3aa9fc15b3211e7268afa597a6dc17f55d64f0730bb9f51febe885057.css" integrity="sha256-euwro6qfwVsyEecmivpZem3Bf1XWTwcwu59R/r6IUFc=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/uncategorized/tableau-inquiring-far-and-beyond-with-data-visualization/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+<style>
+   
+  :root {
+    --aptos-stack: "Aptos", "Source Sans 3", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+  }
+
+  body, p, li, td, th, input, textarea, select, button, .post-content, .entry-content {
+    font-family: "Aptos", "Source Sans 3", "Segoe UI", ui-sans-serif, system-ui, sans-serif !important;
+    letter-spacing: 0.01em;
+  }
+
+   
+  #nav a, .nav a, header nav a, .header nav a {
+    font-size: 1.17rem !important;
+    font-family: "Aptos", "Source Sans 3", "Segoe UI", ui-sans-serif, system-ui, sans-serif !important;
+    font-weight: 500;
+  }
+
+  .logo a, header .logo {
+    font-family: "Aptos", "Source Sans 3", "Segoe UI", ui-sans-serif, system-ui, sans-serif !important;
+  }
+
+   
+  main.main, .main {
+    padding-top: 3rem !important;
+  }
+</style>
+
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Lucas Avelar (Alt + H)">Lucas Avelar</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/scholarship/" title="Scholarship">
+                    <span>Scholarship</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/presentations/" title="Presentations">
+                    <span>Presentations</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/contact-me/" title="How to Reach Me">
+                    <span>How to Reach Me</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Tableau: Inquiring Far and Beyond with Data Visualization
+    </h1>
+    <div class="post-meta"><span title='2022-12-14 20:04:12 +0000 +0000'>December 14, 2022</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>avelar_adm</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="http://localhost:1313/wp-content/uploads/2022/12/tableau.png" alt="tableau">
+        
+</figure>
+  <div class="post-content"><p>To experiment with Tableau, an interactive data visualization application, I acquired data in XLSX format from the <a href="https://www.nps.gov/subjects/nationalregister/database-research.htm">National Register of Historic Places</a> online database. The spreadsheet contained information on all the properties listed in the National Register until 2022 for local, state, national, and international significance. It also displayed geographic information with street addresses, cities, counties, and states for each of the property.</p>
+<figure>
+    <img loading="lazy" src="/wp-content/uploads/2022/12/Screenshot-2022-12-14-at-11.41.46-AM.png"/> 
+</figure>
+
+<p>Tableau is highly sophisticated, and I would need much more extra time and training to figure out how to properly create visualizations out of large datasets like the NRHP data. Knowing that I could not break the software or the dataset, I tried some things out. Here is what I could come up with:</p>
+<figure>
+    <img loading="lazy" src="/wp-content/uploads/2022/12/Screenshot-2022-12-14-at-2.16.16-PM.png"/> 
+</figure>
+
+<p>This took me some hours of troubleshooting as I still do not master the ways of Tableau in structuring the data to make it a good fit for each graph. What this visualization tells is is where in the country each category of historic place is most concentrated, and which states have more properties listed for national significance. With the street address data, Tableau was able to generate longitude and latitude data for each of the listed properties.</p>
+<p>The first column &ldquo;National Level&rdquo; is the indicator whether or not national significance was assigned to each property displayed on the map. This means that the first row, &ldquo;False,&rdquo; only shows properties with no national significance while the second row, &ldquo;True,&rdquo; represents the ones that have it. I tried to symbolize each category (building, district, object, site, and structure) with different colors and weight the data points on the map according to the concentration of listed properties in the same area.</p>
+<p>Because of this choice of symbology and the way the data is structured in this visualization, we can tell, for example, that there are more buildings that sites listed; that the northeast and east coast concentrate the majority of historic places in the National Register; and that there are more local- and state-level significant properties listed than nationally significant properties across the United States.</p>
+<figure>
+    <img loading="lazy" src="/wp-content/uploads/2022/12/Screenshot-2022-12-14-at-2.48.17-PM.png"/> 
+</figure>
+
+<p>Here, I experimented a different form of visualizing the data and chose to include information on Federal Agencies associated with the properties listed in the National Register. There are many ways to look at this information, but I choose to be creative and play with geolocation. The <em>x</em> axe shows the latitude and the <em>y</em> axe shows longitude of each listed property, making the position of each data point in a field significant for the analysis. The visualization tells us that the Forest Service and the Coast Guard, at least among those five agencies displayed in the screenshot, have significant association with historic sites of the National Register.</p>
+<p>The potential to experiment with Tableau seems infinite. During seminar, <a href="https://www.tableau.com/about/blog/contributors/matt-chambers">Dr. Matt Chambers</a> spoke to us about how he used the software to create amazing visualizations about the history of the NFL. Chambers is the Executive Director of Visual Analytics at Clemson CCIT and has some fun stuff going on in Tableau. Check out his public visualizations to see more of what this powerful software can do.</p>
+<p>Working with a historical dataset like the NRHP, I hoped to understand how historians can take advantage of Tableau for visualizing data. But there is so much going on that it can be overwhelming. It does prove the point that visualizations are meant for inspire new research questions and different arguments, not simply to communicate the findings of a previous inquiry.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

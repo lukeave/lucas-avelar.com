@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="dark">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Voyant and Text Mining: When Quantitative Meets Qualitative | Lucas Avelar</title>
+<meta name="keywords" content="">
+<meta name="description" content="When Dr. Leisl Carr Childers introduced me to Voyant during her graduate methods seminar at Colorado State University, I realized a few things. First, that historians can take for granted the textual nature of traditional primary sources. The structure, vocabulary, and terms of a textual corpus tell us a lot about culture and society and even change over time. Second, that the process of text mining, so dear to digital humanists and linguistics scholars, can prove invaluable for historical analysis. Transforming text into structured data suitable for computational processes opens a new venue of interpretation of historical documents and argumentation.">
+<meta name="author" content="avelar_adm">
+<link rel="canonical" href="http://localhost:1313/uncategorized/voyant-and-text-mining-when-quantitative-meets-qualitative/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7aec2ba3aa9fc15b3211e7268afa597a6dc17f55d64f0730bb9f51febe885057.css" integrity="sha256-euwro6qfwVsyEecmivpZem3Bf1XWTwcwu59R/r6IUFc=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/uncategorized/voyant-and-text-mining-when-quantitative-meets-qualitative/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+<style>
+   
+  :root {
+    --aptos-stack: "Aptos", "Source Sans 3", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+  }
+
+  body, p, li, td, th, input, textarea, select, button, .post-content, .entry-content {
+    font-family: "Aptos", "Source Sans 3", "Segoe UI", ui-sans-serif, system-ui, sans-serif !important;
+    letter-spacing: 0.01em;
+  }
+
+   
+  #nav a, .nav a, header nav a, .header nav a {
+    font-size: 1.17rem !important;
+    font-family: "Aptos", "Source Sans 3", "Segoe UI", ui-sans-serif, system-ui, sans-serif !important;
+    font-weight: 500;
+  }
+
+  .logo a, header .logo {
+    font-family: "Aptos", "Source Sans 3", "Segoe UI", ui-sans-serif, system-ui, sans-serif !important;
+  }
+
+   
+  main.main, .main {
+    padding-top: 3rem !important;
+  }
+</style>
+
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Lucas Avelar (Alt + H)">Lucas Avelar</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/scholarship/" title="Scholarship">
+                    <span>Scholarship</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/presentations/" title="Presentations">
+                    <span>Presentations</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/contact-me/" title="How to Reach Me">
+                    <span>How to Reach Me</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Voyant and Text Mining: When Quantitative Meets Qualitative
+    </h1>
+    <div class="post-meta"><span title='2022-12-14 14:53:30 +0000 +0000'>December 14, 2022</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>avelar_adm</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="http://localhost:1313/wp-content/uploads/2022/12/voyant.png" alt="voyant">
+        
+</figure>
+  <div class="post-content"><p>When <a href="https://leislcarrchilders.org/">Dr. Leisl Carr Childers</a> introduced me to <a href="https://voyant-tools.org/">Voyant</a> during her graduate methods seminar at Colorado State University, I realized a few things. First, that historians can take for granted the textual nature of traditional primary sources. The structure, vocabulary, and terms of a textual corpus tell us a lot about culture and society and even change over time. Second, that the process of text mining, so dear to digital humanists and linguistics scholars, can prove invaluable for historical analysis. Transforming text into structured data suitable for computational processes opens a new venue of interpretation of historical documents and argumentation.</p>
+<figure>
+    <img loading="lazy" src="/wp-content/uploads/2022/12/Screenshot-2022-12-13-at-12.12.44-PM.png"/> 
+</figure>
+
+<p>Voyant allows the user to upload a corpus of text directly into the home page. In the process of text mining, the tool recognizes terms in the uploaded corpus that are likely stop words and therefore irrelevant for analysis, like &ldquo;the&rdquo; and &ldquo;a.&rdquo; The result is a set of at least five different visualizations (or &ldquo;skins&rdquo;) that provide different insights into the examined corpus. For the sake of this experiment, I have uploaded the corpus of Frankenstein by Mary Shelley.</p>
+<figure>
+    <img loading="lazy" src="/wp-content/uploads/2022/12/Screenshot-2022-12-13-at-11.16.49-PM.png"/> 
+</figure>
+
+<p>The skin <em>Term</em> s is arguably the most straight forward. It displays the count of each term of the corpus and allows the user to decide whether or not they should edit the stop-word list for the sake of the research question. I have removed words like &ldquo;I&rdquo; and &ldquo;shall&rdquo; to have a better grasp of most frequent terms with semantic value.</p>
+<p>In the skin <em>Reader</em>, you may notice I have searched for &ldquo;mind*&rdquo; and &ldquo;heart*&rdquo; to assess the distribution of these terms and their variations (represented here by the command &ldquo;*&rdquo;) throughout the corpus. My hope was to experiment with the tool&rsquo;s analytical potential and see where, in the corpus, the the terms showed up more. In this sense, I was looking at frequency - the number of times the phrase appears in a corpus - and concordance - the context in which it does - at the same time through the <em>Reader</em> skin, two important concepts in text analysis and the field of linguistics. The <em>Trends</em> skin provides an even better sense of frequency, but barely touches on concordance and contextual placement. See below.</p>
+<figure>
+    <img loading="lazy" src="/wp-content/uploads/2022/12/Screenshot-2022-12-14-at-9.28.19-AM.png"/> 
+</figure>
+
+<p>Now, the power of examining concordance and correlations of terms - or &ldquo;types&rdquo; - throughout a large corpus is the gem of text mining for digital historians. Humanistic inquiry generally requires qualitative thinking, but text analysis, as Stefan Sinclair and Geoffrey Rockwell suggest, a symbiosis between quantitative and qualitative operations. In a text, words can represent the subject or the object of humanistic processes, holding on to different levels of agency according to their positionality. When historians interpret textual documents as data and pay attention on things like concordance and collocation - the level of variation of concordance of a type - they can draw innovative arguments about the past, chronological patterns, and cultural and social change over time.</p>
+<figure>
+    <img loading="lazy" src="/wp-content/uploads/2022/12/Screenshot-2022-12-14-at-9.44.29-AM.png"/> 
+</figure>
+
+<p>Above, the <em>Correlations</em> skin shows how qualitative and quantitative thinking merge in text mining. The Correlation coefficient (r) indicates how the frequencies of term 1 and term 2 are related throughout the corpus. When closer to 1, (r) suggests the frequencies either rise or fall together. When closer to -1, (r) indicates inverse correlation: when one frequency rises, the other falls.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

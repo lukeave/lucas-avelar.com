@@ -1,0 +1,144 @@
+{{- define "main" }}
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+  .contact-content {
+    max-width: calc(1024px + 24px * 2);
+    margin-bottom: 10rem;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .contact-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10rem;
+    text-align: center;
+  }
+
+  .contact-content a {
+    color: #25C722;
+    text-decoration: none;
+  }
+
+  .contact-content a:hover {
+    text-decoration: underline;
+  }
+
+  /* Three-column grid */
+  .profile-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1.5fr;
+    grid-template-rows: auto;
+    gap: 3rem;
+    max-width: 100%;
+    width: 60%;
+    margin: 10rem auto;
+    padding: 0 4rem;
+    font-family: 'Lato', sans-serif;
+  }
+
+  /* Profile photo */
+  .photo-circle {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background-image: url('/wp-content/uploads/2023/03/Clemson-headshot.jpeg');
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center 40%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Column content */
+  .col-contact {
+    font-size: 1rem;
+    line-height: 1.75;
+    color: var(--primary);
+  }
+
+  .col-contact a {
+    color: #25C722;
+    text-decoration: none;
+  }
+
+  .col-contact a:hover {
+    text-decoration: underline;
+  }
+
+  .col-contact p {
+    margin-bottom: 1rem;
+  }
+
+  .clemson-logo {
+    max-width: 200px;
+    display: block;
+    margin-right: auto 1.5rem auto;
+  }
+
+  /* Profile buttons */
+  .profile-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1.25rem;
+    width: 450px;
+  }
+
+  .profile-buttons a {
+    display: block;
+    margin-left: auto;
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+    transition: opacity 0.2s;
+    white-space: nowrap;
+  }
+
+  .profile-buttons a:hover {
+    filter: brightness(0.6);
+  }
+  
+  /* Override PaperMod's narrow container */
+  .main {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+  
+</style>
+
+<!-- Three-column grid -->
+<div class="profile-grid">
+
+  <!-- Column 1: Links -->
+  <div class="profile-buttons">
+    <a href="https://www.linkedin.com/in/lucasave" style="background: linear-gradient(to right, #4facfe, #7b5ea7); color: #fff !important; width: 30%;">LinkedIn</a>
+    <a href="https://www.clemson.edu/cah/about/facultybio.html?id=6581" target="_blank" style="background: linear-gradient(to right, #f7971e, #e03a1e); color: #fff !important; width: 70%">Profile @ Clemson University</a>
+  </div>
+
+  <!-- Column 2: Photo -->
+  <div>
+    <div class="photo-circle"></div>
+  </div>
+
+  <!-- Column 3: Address and Logo -->
+  <div class="col-contact" style="text-align: left;">
+    <p>E-mail: <a href="mailto:ldavela@clemson.edu">ldavela@clemson.edu</a></p>
+    <p>
+      Hardin Hall 203<br>
+      Department of History and Geography<br>
+      Clemson University<br>
+      403 Calhoun Drive<br>
+      Clemson, SC 29634
+    </p>
+    <img class="clemson-logo" src="/wp-content/uploads/2024/02/Clemson-University-Logo.png" alt="Clemson University" />
+  </div>
+
+</div>
+{{- end }}

@@ -1,0 +1,226 @@
+{{- define "main" }}
+<style>
+   @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+ 
+  /* ── Override PaperMod's narrow page container ── */
+  .page-header,
+  .post-single,
+  .post-content {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+
+  main.main {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .profile-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 2.5rem;
+    max-width: 1200px;
+    width: 100%;
+    margin: 8rem auto;
+    padding: 0 2.5rem;
+  }
+
+  .profile-grid .cell {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ── Profile photo ── */
+  .cell-photo .photo-circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url('/wp-content/uploads/2023/03/Clemson-headshot.jpeg');
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center 40%;
+    background-color: #222222;
+    display: block;
+    border: 3px solid #2f2f2f;
+  }
+
+  .cell-photo img {
+    display: none;
+  }
+
+  /* ── Profile buttons ── */
+  .profile-buttons {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1.25rem;
+    flex-wrap: wrap;
+  }
+
+  .profile-buttons a {
+    display: inline-block;
+    padding: 0.45rem 1.1rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    background-color: #25C722;
+    color: #000 !important;
+    border: 1.5px solid #25C722;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .profile-buttons a:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #000 !important;
+    filter: brightness(0.6);
+  }
+
+  /* ── Body text cells ── */
+  .cell-intro {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #999;
+  justify-content: center;
+  }
+  
+  .cell-research,
+  .cell-more {
+    font-size: 1rem;
+    line-height: 1.75;
+    color: #999; 
+    justify-content: flex-start;   
+  }
+
+  /* Links inside cells — matches WP "Page Post Content Link Color" */
+  .cell-intro a,
+  .cell-research a,
+  .cell-more a {
+    color: #25c722 !important;
+    text-decoration: none;
+  }
+
+  .cell-intro a:hover,
+  .cell-research a:hover,
+  .cell-more a:hover {
+    color: #25c722 !important;
+    text-decoration: underline;
+  }
+
+  /* ── Expandable "More on my background" ── */
+  .cell-more details {
+    border: 1px solid #2f2f2f;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0rem;
+  }
+
+  .cell-more details summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    list-style: none;
+  }
+
+  .cell-more details summary::before {
+    content: "▶ ";
+    font-size: 0.75rem;
+    color: #25c722;
+  }
+
+  .cell-more details[open] summary::before {
+    content: "▼ ";
+    color: #25c722;
+  }
+
+  .cell-more details p {
+    margin-bottom: 1rem;
+    color: #999999;
+  }
+
+  /* ── Second photo ── */
+  .cell-more .second-photo {
+    margin-top: 1.5rem;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #2f2f2f;
+  }
+
+  .cell-more .second-photo img {
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+  }
+
+  .second-photo figcaption {
+    font-size: 0.8rem;
+    color: #999999;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-style: italic;
+  }
+
+  /* ── Headings inside grid ── */
+  .profile-grid h1,
+  .profile-grid h2,
+  .profile-grid h3 {
+    color: #ffffff;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 700px) {
+    .profile-grid {
+      grid-template-columns: 1fr;
+    }
+    .cell-photo .photo-circle {
+      width: 220px;
+      height: 220px;
+    }
+  }
+</style>
+
+<div class="profile-grid">
+
+  <!-- Upper-left: photo + buttons -->
+  <div class="cell cell-photo">
+    <div class="photo-circle"></div>
+    <div class="profile-buttons">
+      <a href="https://drive.google.com/file/d/19N_t4Pua7nB8zN39KYk7eMCyAvC6NoI0/view?usp=sharing" style="background: linear-gradient(to right, #56ab2f, #a8e063); color: #000 !important; border: none;">CV</a>
+      <a href="https://github.com/lukeave" target="_blank" style="background: linear-gradient(to right, #f093fb, #667eea); color: #000 !important; border: none;">GitHub</a>
+      <a href="#" style="background: linear-gradient(to right, #d4e09b, #a8d8ea); color: #000 !important; border: none;">Site em Português</a>
+    </div>
+  </div>
+
+  <!-- Upper-right: intro bio -->
+  <div class="cell cell-intro">
+    <p>I am a Digital History PhD Candidate and Graduate Instructor of Record at Clemson University. I have the privilege to be part of the inaugural cohort of the <a href="https://www.clemson.edu/cah/academics/history-and-geography/graduate/digital-history-phd/">Digital History PhD Program at Clemson</a>, the first of its kind in the nation and uniquely positioned to merge rigorous historical research with cutting-edge computational methods for analyzing large sets of historical data.</p>
+    <br>
+    <p>In 2023, I was selected to attend the inaugural NEH-funded Archives as Data Institute at Columbia University. I also served as one of the 2024 Andrew W. Mellon Data Fellows for the project <a href="http://freedomonthemove.org">Freedom on the Move</a> at Cornell University.</p>
+  </div>
+
+  <!-- Lower-left: dissertation research -->
+  <div class="cell cell-research">
+    <p>My dissertation research investigates spatial and rhetorical representations of the U.S. American empire and U.S. cultural attitudes toward foreign nations, particularly Latin America. I'm using digital methodologies to assess how U.S. imperialist ideology informed the planning, organization, and spatial arrangement of world fairs in the late nineteenth and early twentieth centuries. I am also interested in understanding how U.S. Americans and foreign nationals experienced and perceived the meaning behind those events. As an Instructor of Record at Clemson, I teach United States History to 1877 since 2024.</p>
+  </div>
+
+  <!-- Lower-right: more background + second photo -->
+  <div class="cell cell-more">
+    <details>
+      <summary>More on my background</summary>
+      <p>I hold an <a href="https://history.colostate.edu/graduate/">MA in Public History and Historic Preservation</a> from Colorado State University and a <a href="https://historia.ufrj.br/">BA in History</a> from the Federal University of Rio de Janeiro. Still in Brazil, I worked with the Department of Culture at the Rio de Janeiro State Legislature (ALERJ).</p>
+      <p>In Colorado, I worked an internship as an Archives Technician with the U.S. Department of Agriculture's National Wildlife Research Center, in collaboration with the <a href="https://pehc.colostate.edu/">Public &amp; Environmental History Center</a>. In that role, I assisted with digital preservation, data and metadata management, and long-term archival storage of documents of historic and institutional importance. You can learn more about my experience in that role by reading <a href="https://pehc.colostate.edu/wp-content/uploads/sites/57/2021/11/PLHC-Newsletter-2021-FINAL-compressed.pdf">the short piece featured on the PEHC's Newsletter of Fall 2021 (Volume 7, page 14).</a></p>
+      <p>I also worked as a Geographic Information Systems intern with the <a href="https://gis.colostate.edu/">Geospatial Centroid</a> in partnership with the <a href="https://www.larimer.gov/naturalresources">Larimer County Department of Natural Resources</a> on a short-term research and mapping project related to the County's Small Grants for Community Partnering Program.</p>
+    </details>
+    <figure class="second-photo">
+      <img src="/wp-content/uploads/2025/02/IMG_7169-scaled.jpeg" alt="Lucas Avelar" />
+      <figcaption></figcaption>
+    </figure>
+  </div>
+
+</div>
+{{- end }}

@@ -1,0 +1,69 @@
+baseURL: https://lucasavelar.org
+languageCode: en
+title: Lucas Avelar
+theme: PaperMod
+taxonomies:
+  category: categories
+  tag: tags
+params:
+  description: Digital History PhD Candidate, Clemson University
+  defaultTheme: dark
+  disableThemeToggle: true
+  showShareButtons: false
+  showReadingTime: true
+  showToc: false
+  showBreadCrumbs: false
+  showCodeCopyButtons: true
+  hideFooter: true
+  profileMode:
+    enabled: false
+    title: Lucas Avelar
+    subtitle: Digital History PhD Candidate & Graduate Instructor of Record, Clemson University
+    imageUrl: /wp-content/uploads/2026/03/Clemson-headshot-square.jpeg
+    imageWidth: 200
+    imageHeight: 200
+    imageTitle: Lucas Avelar
+    buttons:
+      - name: CV
+        url: /pages/cv/
+      - name: GitHub
+        url: https://github.com/lukeave
+      - name: Site em Português
+        url: "#"
+  assets:
+    favicon: /favicon.ico
+    disableHLJS: true
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    style: monokai
+  goldmark:
+    renderer:
+      unsafe: true
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+outputFormats:
+  RSS:
+    mediaType: application/rss+xml
+    baseName: feed
+menu:
+  main:
+    - name: About
+      url: /
+      weight: 1
+    - name: Scholarship
+      url: /scholarship/
+      weight: 2
+    - name: Presentations
+      url: /presentations/
+      weight: 3
+    - name: Posts
+      url: /posts/
+      weight: 4
+    - name: How to Reach Me
+      url: /contact-me/
+      weight: 5
