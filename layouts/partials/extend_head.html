@@ -5,6 +5,15 @@
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
   :root {
     font-family: 'Lato', ui-sans-serif, system-ui, sans-serif !important;
   }
@@ -14,7 +23,7 @@
     letter-spacing: 0.01em;
   }
 
-  /* Navigation: 30% larger */
+  /* Navigation: larger */
   #nav a, .nav a, header nav a, .header nav a {
     font-size: 1.5rem !important;
     font-family: "Aptos", "Source Sans 3", "Segoe UI", ui-sans-serif, system-ui, sans-serif !important;
@@ -28,5 +37,12 @@
   /* Space between nav and main content */
   main.main, .main {
     padding-top: 3rem !important;
+  }
+
+  /* Mobile: shrink nav font */
+  @media (max-width: 768px) {
+    #nav a, .nav a, header nav a, .header nav a {
+      font-size: 1rem !important;
+    }
   }
 </style>

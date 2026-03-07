@@ -1,6 +1,7 @@
 {{- define "main" }}
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
   .presentations-content {
     max-width: calc(1024px + 24px * 2);
     margin: 0 auto;
@@ -23,7 +24,7 @@
 
   .presentations-content p,
   .presentations-content li {
-     font-size: 1rem;
+    font-size: 1rem;
     line-height: 1.3;
     margin-bottom: 1.5rem;
   }
@@ -36,6 +37,21 @@
 
   .presentations-content a:hover {
     text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .presentations-content {
+      padding: 0 1rem;
+    }
+
+    .presentations-content h1 {
+      font-size: 2rem;
+    }
+
+    .presentations-content h2,
+    .presentations-content h3 {
+      font-size: 1.2rem;
+    }
   }
 </style>
 

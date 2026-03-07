@@ -34,9 +34,18 @@ Between 2017 and 2019, I was a history interpreter and museum guide at the Rio d
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 
 <style>
-   
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
   :root {
-    --aptos-stack: "Aptos", "Source Sans 3", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+    font-family: 'Lato', ui-sans-serif, system-ui, sans-serif !important;
   }
 
   body, p, li, td, th, input, textarea, select, button, .post-content, .entry-content {
@@ -46,7 +55,7 @@ Between 2017 and 2019, I was a history interpreter and museum guide at the Rio d
 
    
   #nav a, .nav a, header nav a, .header nav a {
-    font-size: 1.17rem !important;
+    font-size: 1.5rem !important;
     font-family: "Aptos", "Source Sans 3", "Segoe UI", ui-sans-serif, system-ui, sans-serif !important;
     font-weight: 500;
   }
@@ -58,6 +67,13 @@ Between 2017 and 2019, I was a history interpreter and museum guide at the Rio d
    
   main.main, .main {
     padding-top: 3rem !important;
+  }
+
+   
+  @media (max-width: 768px) {
+    #nav a, .nav a, header nav a, .header nav a {
+      font-size: 1rem !important;
+    }
   }
 </style>
 

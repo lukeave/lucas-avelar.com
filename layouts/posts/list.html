@@ -114,13 +114,38 @@
     text-decoration: underline;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
+    .posts-header {
+      margin: 3rem auto 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .posts-header h1 {
+      font-size: 1.6rem;
+    }
+
+    .posts-header p {
+      font-size: 1rem;
+    }
+
+    .posts-list {
+      padding: 0 1rem;
+    }
+
     .post-row {
       grid-template-columns: 1fr;
     }
-    .post-thumb, .post-thumb-placeholder {
-      width: 100%;
-      height: 180px;
+
+    .post-thumb {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto;
+    }
+
+    .post-thumb-placeholder {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto;
     }
   }
 </style>

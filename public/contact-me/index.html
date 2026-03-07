@@ -48,6 +48,15 @@ Clemson, SC 29634
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
   :root {
     font-family: 'Lato', ui-sans-serif, system-ui, sans-serif !important;
   }
@@ -71,6 +80,13 @@ Clemson, SC 29634
    
   main.main, .main {
     padding-top: 3rem !important;
+  }
+
+   
+  @media (max-width: 768px) {
+    #nav a, .nav a, header nav a, .header nav a {
+      font-size: 1rem !important;
+    }
   }
 </style>
 
@@ -218,13 +234,46 @@ Clemson, SC 29634
   .profile-buttons a:hover {
     filter: brightness(0.6);
   }
-  
+
    
   .main {
     max-width: 100% !important;
     padding: 0 !important;
   }
-  
+
+   
+  @media (max-width: 768px) {
+    .profile-grid {
+      grid-template-columns: 1fr;
+      width: 100%;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+      gap: 2rem;
+    }
+
+    .contact-content h1 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .photo-circle {
+      width: 200px;
+      height: 200px;
+    }
+
+    .profile-buttons {
+      width: 100%;
+    }
+
+    .profile-buttons a {
+      white-space: normal;
+      margin-left: 0;
+    }
+
+    .clemson-logo {
+      max-width: 150px;
+    }
+  }
 </style>
 
 
