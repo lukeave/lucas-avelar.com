@@ -1,16 +1,21 @@
 {{- define "main" }}
 <style>
   .pdf-container {
-    width: 100%;
+    width: 100% !important;
     height: 90vh;
-    margin: 0 auto;
-    padding: 0 24px;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
   .pdf-container iframe {
     width: 100%;
     height: 100%;
     border: none;
+  }
+
+    .main {
+    max-width: 100% !important;
+    padding: 0 600px !important;
   }
 
   @media (max-width: 768px) {
