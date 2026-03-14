@@ -1,9 +1,9 @@
 {{- define "main" }}
 <style>
   .main {
-    max-width: 100% !important;
-    margin: 200px !important;
-    padding: 100px 100px!important;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 2rem 2rem;
   }
   
   /* ── buttons ── */
@@ -13,6 +13,7 @@
     gap: 1.75rem;
     margin-top: 1.25rem;
     text-align: center;
+    align-items: center;
   }
 
   .buttons a {
@@ -28,8 +29,8 @@
     color: #000 !important;
     border: 1.5px solid #25C722;
     transition: background 0.2s, color 0.2s;
-    width: 700px;
     white-space: nowrap;
+    box-sizing: border-box;
   }
 
   .buttons a:hover {
@@ -38,8 +39,35 @@
     color: #000 !important;
     filter: brightness(0.6);
   }
-  </style>
 
+  /* Tablet (481–768px): slightly smaller font */
+  @media (max-width: 768px) {
+    .main {
+      padding: 3rem 1.5rem 1.5rem;
+    }
+    .buttons a {
+      font-size: 1.25rem;
+      padding: 0.9rem 1rem;
+      white-space: nowrap;
+    }
+  }
+
+  /* Mobile (≤ 480px): smaller buttons with adjusted sizing */
+  @media (max-width: 480px) {
+    .main {
+      padding: 2rem 1rem 1rem;
+    }
+    .buttons {
+      gap: 1rem;
+      margin-top: 0.75rem;
+    }
+    .buttons a {
+      font-size: 0.85rem;
+      padding: 0.65rem 0.7rem;
+      white-space: normal;
+    }
+  }
+</style>
 
 <div class="buttons">
       <a href="https://lucas-avelar.com/teaching-evals/fall-2024/" target = "_blank" style="background: linear-gradient(to right, #56ab2f, #a8e063); color: #000 !important; border: none;">HIST 1010 - Fall 2024 Course Evaluations</a>

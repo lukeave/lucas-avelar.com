@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="dark">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=58029&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
@@ -9,16 +9,16 @@
 <meta name="keywords" content="">
 <meta name="description" content="HIST1010: Fall 2025 Course Evaluations - Lucas Avelar">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/teaching-evals/fall-2025/">
+<link rel="canonical" href="http://localhost:58029/teaching-evals/fall-2025/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.7aec2ba3aa9fc15b3211e7268afa597a6dc17f55d64f0730bb9f51febe885057.css" integrity="sha256-euwro6qfwVsyEecmivpZem3Bf1XWTwcwu59R/r6IUFc=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:58029/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:58029/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:58029/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:58029/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:58029/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/teaching-evals/fall-2025/">
+<link rel="alternate" hreflang="en" href="http://localhost:58029/teaching-evals/fall-2025/">
 <noscript>
     <style>
         #theme-toggle,
@@ -63,11 +63,6 @@
   }
 
    
-  main.main, .main {
-    padding-top: 3rem !important;
-  }
-
-   
   @media (max-width: 768px) {
     #nav a, .nav a, header nav a, .header nav a {
       font-size: 1rem !important;
@@ -75,8 +70,287 @@
   }
   
   body.list .logo a {
-  display: none;
-}
+    display: none;
+  }
+
+ 
+
+   
+  .page-header,
+  .post-single,
+  .post-content,
+  main.main {
+    max-width: none;
+    padding: 0;
+  }
+  
+   
+  main.main {
+    padding-top: 3rem !important;
+  }
+
+   
+  .profile-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 2.5rem;
+    max-width: 1200px;
+    width: 100%;
+    margin: 4rem auto;
+    padding: 0 2.5rem;
+  }
+
+  .profile-grid .cell {
+    display: flex;
+    flex-direction: column;
+  }
+
+   
+  .cell-photo .photo-circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url('/wp-content/uploads/2023/03/Clemson-headshot.jpeg');
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center 40%;
+    background-color: #222222;
+    display: block;
+    border: 3px solid #2f2f2f;
+  }
+
+  .cell-photo img {
+    display: none;
+  }
+
+   
+  .profile-buttons {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1.25rem;
+    flex-wrap: wrap;
+  }
+
+  .profile-buttons a {
+    display: inline-block;
+    padding: 0.45rem 1.1rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    background-color: #25C722;
+    color: #000 !important;
+    border: 1.5px solid #25C722;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .profile-buttons a:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #000 !important;
+    filter: brightness(0.6);
+  }
+
+   
+  .cell-intro {
+    font-size: 1rem;
+    line-height: 1.75;
+    color: #999;
+    justify-content: center;
+  }
+  
+  .cell-research,
+  .cell-more {
+    font-size: 1rem;
+    line-height: 1.75;
+    color: #999; 
+    justify-content: flex-start;   
+  }
+
+   
+  .cell-intro a,
+  .cell-research a,
+  .cell-more a {
+    color: #25c722 !important;
+    text-decoration: none;
+  }
+
+  .cell-intro a:hover,
+  .cell-research a:hover,
+  .cell-more a:hover {
+    color: #25c722 !important;
+    text-decoration: underline;
+  }
+
+   
+  .cell-more details {
+    border: 1px solid #2f2f2f;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0rem;
+  }
+
+  .cell-more details summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    list-style: none;
+  }
+
+  .cell-more details summary::before {
+    content: "▶ ";
+    font-size: 0.75rem;
+    color: #25c722;
+  }
+
+  .cell-more details[open] summary::before {
+    content: "▼ ";
+    color: #25c722;
+  }
+
+  .cell-more details p {
+    margin-bottom: 1rem;
+    color: #999999;
+  }
+
+   
+  .cell-more .second-photo {
+    margin-top: 1.5rem;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #2f2f2f;
+  }
+
+  .cell-more .second-photo img {
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+  }
+
+  .second-photo figcaption {
+    font-size: 0.8rem;
+    color: #999999;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-style: italic;
+  }
+
+   
+  .profile-grid h1,
+  .profile-grid h2,
+  .profile-grid h3 {
+    color: #ffffff;
+  }
+
+   
+  @media (max-width: 768px) {
+    .profile-grid {
+      grid-template-columns: 1fr;
+      padding: 0 1.5rem;
+    }
+    .cell-photo .photo-circle {
+      width: 220px;
+      height: 220px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .profile-grid {
+      grid-template-columns: 1fr;
+      padding: 0 1rem;
+      gap: 1.5rem;
+    }
+    .profile-grid h1 {
+      font-size: 1.8rem;
+    }
+  }
+
+   
+
+   
+  .post-content,
+  .entry-content,
+  .page-header,
+  .contact-content {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    box-sizing: border-box;
+  }
+
+   
+  .post-content > *,
+  .entry-content > * {
+    min-width: 0;
+  }
+
+   
+  .post-content img,
+  .entry-content img,
+  figure img,
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .post-content iframe,
+  .entry-content iframe,
+  .post-content video,
+  .entry-content video {
+    max-width: 100%;
+    height: auto;
+  }
+
+   
+  .post-content table,
+  .entry-content table {
+    width: 100%;
+    display: block;
+    overflow-x: auto;
+  }
+
+   
+  @media (max-width: 768px) {
+    .post-content,
+    .entry-content,
+    .page-header,
+    .contact-content {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+
+   
+  @media (max-width: 480px) {
+    .post-content,
+    .entry-content,
+    .page-header,
+    .contact-content {
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+      font-size: 0.98rem;
+      line-height: 1.6;
+    }
+  }
+
+   
+  @media (min-width: 1400px) {
+    .post-content,
+    .entry-content,
+    .page-header,
+    .contact-content {
+      max-width: 1100px;
+    }
+  }
+
 </style>
 
 </head>
@@ -84,33 +358,33 @@
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Lucas Avelar (Alt + H)">Lucas Avelar</a>
+            <a href="http://localhost:58029/" accesskey="h" title="Lucas Avelar (Alt + H)">Lucas Avelar</a>
             <div class="logo-switches">
             </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/" title="About">
+                <a href="http://localhost:58029/" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/scholarship/" title="Scholarship">
+                <a href="http://localhost:58029/scholarship/" title="Scholarship">
                     <span>Scholarship</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/presentations/" title="Presentations">
+                <a href="http://localhost:58029/presentations/" title="Presentations">
                     <span>Presentations</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/posts/" title="Posts">
+                <a href="http://localhost:58029/posts/" title="Posts">
                     <span>Posts</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/contact-me/" title="How to Reach Me">
+                <a href="http://localhost:58029/contact-me/" title="How to Reach Me">
                     <span>How to Reach Me</span>
                 </a>
             </li>
@@ -119,6 +393,17 @@
 </header>
 <main class="main">
 <style>
+  h1 {
+    text-align: center;
+    font-size: 2.7rem;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+    white-space: nowrap;
+    overflow: auto;
+    padding: 0 1rem;
+    box-sizing: border-box;
+  }
+
   .pdf-container {
     width: 100% !important;
     height: 90vh;
@@ -132,20 +417,47 @@
     border: none;
   }
 
-    .main {
+  .main {
     max-width: 100% !important;
-    padding: 0 200px !important;
+    padding: 0 2rem !important;
   }
 
+   
   @media (max-width: 768px) {
+    h1 {
+      font-size: 1.6rem;
+      margin-top: 2.5rem;
+      line-height: 1.3;
+      padding: 0 1rem;
+    }
+    .main {
+      padding: 0 1rem !important;
+    }
     .pdf-container {
-      padding: 0;
       height: 80vh;
+    }
+  }
+
+   
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+      margin-top: 1.5rem;
+      padding: 0 0.5rem;
+      white-space: nowrap;
+      overflow: auto;
+    }
+    .main {
+      padding: 0 0.5rem !important;
+    }
+    .pdf-container {
+      height: 75vh;
     }
   }
 </style>
 
-<h1 style="text-align: center; font-size: 2.7rem; margin-bottom: 1rem; margin-top: 5rem">HIST1010: Fall 2025 Course Evaluations</h1>
+<h1>HIST1010: Fall 2025 Course Evaluations</h1>
 
 <div class="pdf-container">
   <iframe src="/teaching-portfolio/eval-fall-2025.pdf" allowfullscreen></iframe>

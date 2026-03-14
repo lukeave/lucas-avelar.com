@@ -1,5 +1,16 @@
 {{- define "main" }}
 <style>
+  h1 {
+    text-align: center;
+    font-size: 2.7rem;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+    white-space: nowrap;
+    overflow: auto;
+    padding: 0 1rem;
+    box-sizing: border-box;
+  }
+
   .pdf-container {
     width: 100% !important;
     height: 90vh;
@@ -13,20 +24,47 @@
     border: none;
   }
 
-    .main {
+  .main {
     max-width: 100% !important;
-    padding: 0 200px !important;
+    padding: 0 2rem !important;
   }
 
+  /* Tablet (481–768px): reduce padding and font size */
   @media (max-width: 768px) {
+    h1 {
+      font-size: 1.6rem;
+      margin-top: 2.5rem;
+      line-height: 1.3;
+      padding: 0 1rem;
+    }
+    .main {
+      padding: 0 1rem !important;
+    }
     .pdf-container {
-      padding: 0;
       height: 80vh;
+    }
+  }
+
+  /* Mobile (≤ 480px): minimal padding and smaller font */
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+      margin-top: 1.5rem;
+      padding: 0 0.5rem;
+      white-space: nowrap;
+      overflow: auto;
+    }
+    .main {
+      padding: 0 0.5rem !important;
+    }
+    .pdf-container {
+      height: 75vh;
     }
   }
 </style>
 
-<h1 style="text-align: center; font-size: 2.7rem; margin-bottom: 1rem; margin-top: 5rem">{{ .Title}}</h1>
+<h1>{{ .Title}}</h1>
 
 <div class="pdf-container">
   <iframe src="{{ .Params.pdf_url }}" allowfullscreen></iframe>
