@@ -99,6 +99,13 @@
 &lt;p&gt;Lucas Avelar gathered the historical data from archival documents and spatial data collection that resulted in this dataset as part of his Ph.D. dissertation project between 2023 and 2027. The data collection was part of a larger attempt to publicize a spatially oriented dataset and interactive web map applications of the most important world’s fairs that happened in the United States between 1876 and 1939. Each data file covers a different fair and provides information on the exhibit halls, monuments, and buildings, including their geolocation, measurements, and architectural style.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>All Teaching Evaluations</title>
+      <link>http://localhost:1313/teaching-evals/all/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching-evals/all/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>An Imagined Geography of Empire:</title>
       <link>http://localhost:1313/an-imagined-geography-of-empire/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -138,6 +145,13 @@
       <link>http://localhost:1313/teaching-evals/fall-2024/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/teaching-evals/fall-2024/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HIST1010: Fall 2024 Midterm Assessment of Teaching</title>
+      <link>http://localhost:1313/teaching-evals/mat-fall-2024/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching-evals/mat-fall-2024/</guid>
       <description></description>
     </item>
     <item>
