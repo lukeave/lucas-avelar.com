@@ -69,7 +69,12 @@
     }
   }
   
-  body.list .logo a {
+   
+  #menu li:first-child a span.active {
+    position: relative;
+  }
+  
+  body:has(#menu li:first-child a span.active) .logo a {
     display: none;
   }
 

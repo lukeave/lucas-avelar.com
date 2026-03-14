@@ -41,7 +41,12 @@
     }
   }
   
-  body.list .logo a {
+  /* Hide logo only on home page (where "About" is the first menu item with active class) */
+  #menu li:first-child a span.active {
+    position: relative;
+  }
+  
+  body:has(#menu li:first-child a span.active) .logo a {
     display: none;
   }
 
