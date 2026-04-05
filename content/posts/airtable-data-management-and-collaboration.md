@@ -7,9 +7,7 @@ _yoast_wpseo_content_score: "30"
 _yoast_wpseo_estimated-reading-time-minutes: "5"
 _yoast_wpseo_primary_category: "1"
 _yoast_wpseo_wordproof_timestamp: ""
-author: avelar_adm
-categories:
-  - uncategorized
+author: Lucas Avelar
 cover:
   alt: Airtable-Emblem
   image: /wp-content/uploads/2022/12/Airtable-Emblem-2-e1678649518571.png

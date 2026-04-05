@@ -9,9 +9,7 @@ _yoast_wpseo_content_score: "30"
 _yoast_wpseo_estimated-reading-time-minutes: "4"
 _yoast_wpseo_primary_category: "1"
 _yoast_wpseo_wordproof_timestamp: ""
-author: avelar_adm
-categories:
-  - uncategorized
+author: Lucas Avelar
 cover:
   alt: open-source-code-1260x582-4
   image: /wp-content/uploads/2022/09/open-source-code-1260x582-4.jpeg

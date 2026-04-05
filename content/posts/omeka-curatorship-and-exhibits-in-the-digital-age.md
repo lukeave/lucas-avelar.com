@@ -8,9 +8,7 @@ _yoast_wpseo_content_score: "30"
 _yoast_wpseo_estimated-reading-time-minutes: "4"
 _yoast_wpseo_primary_category: "1"
 _yoast_wpseo_wordproof_timestamp: ""
-author: avelar_adm
-categories:
-  - uncategorized
+author: Lucas Avelar
 cover:
   alt: OmekaBadge
   image: /wp-content/uploads/2022/10/OmekaBadge-e1678648906127.png
