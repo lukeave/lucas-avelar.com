@@ -1,18 +1,9 @@
 ---
-_edit_last: "1"
-_thumbnail_id: "455"
-_yoast_wpseo_content_score: "30"
-_yoast_wpseo_estimated-reading-time-minutes: "4"
-_yoast_wpseo_primary_category: "1"
-_yoast_wpseo_wordproof_timestamp: ""
 author: Lucas Avelar
 cover:
   alt: tableau
   image: /wp-content/uploads/2022/12/tableau.png
 date: "2022-12-14T20:04:12+00:00"
-guid: http://lucasavelar.org/?p=453
-parent_post_id: null
-post_id: "453"
 title: 'Tableau: Inquiring Far and Beyond with Data Visualization'
 url: /posts/tableau-inquiring-far-and-beyond-with-data-visualization/
 

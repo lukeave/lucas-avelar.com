@@ -1,18 +1,9 @@
 ---
-_edit_last: "1"
-_thumbnail_id: "364"
-_yoast_wpseo_content_score: "30"
-_yoast_wpseo_estimated-reading-time-minutes: "4"
-_yoast_wpseo_primary_category: "1"
-_yoast_wpseo_wordproof_timestamp: ""
 author: Lucas Avelar
 cover:
   alt: voyant
   image: /wp-content/uploads/2022/12/voyant.png
 date: "2022-12-14T14:53:30+00:00"
-guid: http://lucasavelar.org/?p=363
-parent_post_id: null
-post_id: "363"
 title: 'Voyant and Text Mining: When Quantitative Meets Qualitative'
 url: /posts/voyant-and-text-mining-when-quantitative-meets-qualitative/
 

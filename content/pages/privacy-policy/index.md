@@ -1,11 +1,5 @@
 ---
-_wp_page_template: default
-author: ""
-date: ""
 draft: "true"
-guid: http://lucasavelar.org/?page_id=3
-parent_post_id: null
-post_id: "3"
 title: Privacy Policy
 showDate: false
 showAuthor: false

@@ -1,15 +1,4 @@
 ---
-_edit_last: "1"
-_wp_page_template: default
-_yoast_wpseo_content_score: "30"
-_yoast_wpseo_estimated-reading-time-minutes: "8"
-_yoast_wpseo_wordproof_timestamp: ""
-author: ""
-date: ""
-footnotes: ""
-guid: http://lucasavelar.org/?page_id=632
-parent_post_id: null
-post_id: "632"
 title: <strong>World’s Fairs of America Data Biography</strong>
 showDate: false
 showAuthor: false

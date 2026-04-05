@@ -1,18 +1,9 @@
 ---
-_edit_last: "1"
-_thumbnail_id: "293"
-_yoast_wpseo_content_score: "30"
-_yoast_wpseo_estimated-reading-time-minutes: "3"
-_yoast_wpseo_primary_category: "1"
-_yoast_wpseo_wordproof_timestamp: ""
 author: Lucas Avelar
 cover:
   alt: StoryMaps
   image: /wp-content/uploads/2022/12/StoryMaps.png
 date: "2022-12-13T13:43:18+00:00"
-guid: http://lucasavelar.org/?p=291
-parent_post_id: null
-post_id: "291"
 title: 'StoryMaps: A place-based form of historical narrative'
 url: /posts/storymaps-a-place-based-form-of-historical-narrative/
 

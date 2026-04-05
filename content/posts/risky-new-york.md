@@ -1,19 +1,4 @@
 ---
-_edit_last: "1"
-_oembed_5490d2bfc66c8dd4081a88c84cb93f3e: '{{unknown}}'
-_oembed_e75df3329682b88c8abedfacf75acebd: '{{unknown}}'
-_thumbnail_id: "784"
-_wp_old_slug: "758"
-_yoast_wpseo_content_score: "30"
-_yoast_wpseo_estimated-reading-time-minutes: "15"
-_yoast_wpseo_opengraph-image: http://lucasavelar.org/wp-content/uploads/2023/05/Screenshot-2023-05-12-at-12.37.49-PM.png
-_yoast_wpseo_opengraph-image-id: "784"
-_yoast_wpseo_opengraph-title: '%%title%% %%sep%% %%sitename%%'
-_yoast_wpseo_primary_category: "1"
-_yoast_wpseo_twitter-image: http://lucasavelar.org/wp-content/uploads/2023/05/Screenshot-2023-05-12-at-12.37.49-PM.png
-_yoast_wpseo_twitter-image-id: "784"
-_yoast_wpseo_twitter-title: '%%title%% %%sep%% %%sitename%%'
-_yoast_wpseo_wordproof_timestamp: ""
 author: Luc Avelar
 showReadingTIme: false
 categories:
@@ -22,9 +7,6 @@ cover:
   alt: Screenshot 2023-05-12 at 12.37.49 PM
   image: /wp-content/uploads/2023/05/Screenshot-2023-05-12-at-12.37.49-PM.png
 date: "2023-05-12T15:29:44+00:00"
-guid: http://lucasavelar.org/?p=758
-parent_post_id: null
-post_id: "758"
 title: 'Risky New York: Gendered Spatial Practices Between the Gay City and the Normative City'
 url: /posts/risky-new-york/
 

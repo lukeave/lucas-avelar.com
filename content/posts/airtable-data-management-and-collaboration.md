@@ -1,20 +1,9 @@
 ---
-_edit_last: "1"
-_oembed_96ab46fe4b259c24aa27e9e7bad5d61f: <a class="twitter-timeline" data-width="880" data-height="1000" data-dnt="true" href="https://twitter.com/lucsavelar?ref_src=twsrc%5Etfw">Tweets by lucsavelar</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-_oembed_time_96ab46fe4b259c24aa27e9e7bad5d61f: "1670889741"
-_thumbnail_id: "616"
-_yoast_wpseo_content_score: "30"
-_yoast_wpseo_estimated-reading-time-minutes: "5"
-_yoast_wpseo_primary_category: "1"
-_yoast_wpseo_wordproof_timestamp: ""
 author: Lucas Avelar
 cover:
   alt: Airtable-Emblem
   image: /wp-content/uploads/2022/12/Airtable-Emblem-2-e1678649518571.png
 date: "2022-12-13T00:02:07+00:00"
-guid: http://lucasavelar.org/?p=271
-parent_post_id: null
-post_id: "271"
 title: 'AirTable: Data Management and Collaboration'
 url: /posts/airtable-data-management-and-collaboration/
 

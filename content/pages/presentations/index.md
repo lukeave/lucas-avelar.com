@@ -1,24 +1,4 @@
 ---
-_edit_last: "1"
-_thumbnail_id: "612"
-_wp_page_template: default
-_yoast_wpseo_content_score: "30"
-_yoast_wpseo_estimated-reading-time-minutes: "3"
-_yoast_wpseo_metadesc: “The Built Environment, Space, and Narratives of Time,” at “Public History, Identity, and Political Uses of the Past” by IFPH Explorers. International Federation for Public History, 2022. “Space and Narratives of Time in Brazil’s Participation at World’s Fairs” at the History Graduate Research Exchange. Colorado State University, 2021. "History, Memory and Institutions,” at the virtual round of debates “Olhares sobre a Educação” (Education Perspectives), October 2020. (Portuguese)
-_yoast_wpseo_opengraph-description: “The Built Environment, Space, and Narratives of Time,” at “Public History, Identity, and Political Uses of the Past” by IFPH Explorers. International Federation for Public History, 2022. "Space and Narratives of Time in Brazil’s Participation at World’s Fairs” at the History Graduate Research Exchange. Colorado State University, 2021. "History, Memory and Institutions,” at the virtual round of debates “Olhares sobre a Educação” (Education Perspectives), October 2020. (Portuguese)
-_yoast_wpseo_opengraph-image: http://lucasavelar.org/wp-content/uploads/2023/03/IMG_4366-scaled-e1678647933215.jpg
-_yoast_wpseo_opengraph-image-id: "612"
-_yoast_wpseo_opengraph-title: '%%title%% %%sep%% %%sitename%%'
-_yoast_wpseo_twitter-description: “The Built Environment, Space, and Narratives of Time,” at “Public History, Identity, and Political Uses of the Past” by IFPH Explorers. International Federation for Public History, 2022. “Space and Narratives of Time in Brazil’s Participation at World’s Fairs” at the History Graduate Research Exchange. Colorado State University, 2021. “History, Memory and Institutions,” at the virtual round of debates “Olhares sobre a Educação” (Education Perspectives), October 2020. (Portuguese)
-_yoast_wpseo_twitter-image: http://lucasavelar.org/wp-content/uploads/2023/03/IMG_4366-scaled-e1678647933215.jpg
-_yoast_wpseo_twitter-image-id: "612"
-_yoast_wpseo_twitter-title: '%%title%% %%sep%% %%sitename%%'
-_yoast_wpseo_wordproof_timestamp: ""
-author: ""
-date: ""
-guid: http://lucasavelar.org/?page_id=493
-parent_post_id: null
-post_id: "493"
 title: "Presentations"
 showDate: false
 showAuthor: false

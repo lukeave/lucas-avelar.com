@@ -1,31 +1,4 @@
 ---
-_edit_last: "1"
-_oembed_96ab46fe4b259c24aa27e9e7bad5d61f: <a class="twitter-timeline" data-width="880" data-height="1000" data-dnt="true" href="https://twitter.com/lucsavelar?ref_src=twsrc%5Etfw">Tweets by lucsavelar</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-_oembed_be19c259570c535f970d020fabede543: <a class="twitter-timeline" data-width="1200" data-height="1000" data-dnt="true" href="https://twitter.com/lucsavelar?ref_src=twsrc%5Etfw">Tweets by lucsavelar</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-_oembed_time_96ab46fe4b259c24aa27e9e7bad5d61f: "1664056602"
-_oembed_time_be19c259570c535f970d020fabede543: "1664060669"
-_thumbnail_id: "834"
-_wp_page_template: default
-_yoast_wpseo_content_score: "30"
-_yoast_wpseo_estimated-reading-time-minutes: "3"
-_yoast_wpseo_is_cornerstone: "1"
-_yoast_wpseo_metadesc: Lucas "Luc" Avelar is a Digital History Ph.D. student and Graduate Research Assistant at Clemson University. He investigates issues of spatial history, place-making, narratives of time in the built environment, and cultural identity.
-_yoast_wpseo_opengraph-description: Lucas "Luc" Avelar is a Digital History Ph.D. student and Graduate Research Assistant at Clemson University. He investigates issues of spatial history, place-making, narratives of time in the built environment, and cultural identity.
-_yoast_wpseo_opengraph-image: http://lucasavelar.org/wp-content/uploads/2023/07/IMG_0862-2-e1689781225356.png
-_yoast_wpseo_opengraph-image-id: "834"
-_yoast_wpseo_opengraph-title: '%%sitename%% %%sep%% %%sitedesc%%'
-_yoast_wpseo_title: '%%sitename%% %%sep%% %%sitedesc%%'
-_yoast_wpseo_twitter-description: Lucas Avelar is a Digital History Ph.D. student and Graduate Research Assistant at Clemson University. He investigates issues of spatial history, place-making, narratives of time in the built environment, and cultural identity.
-_yoast_wpseo_twitter-image: http://lucasavelar.org/wp-content/uploads/2023/07/IMG_0862-2-e1689781225356.png
-_yoast_wpseo_twitter-image-id: "834"
-_yoast_wpseo_twitter-title: '%%sitename%% %%sep%% %%sitedesc%%'
-_yoast_wpseo_wordproof_timestamp: ""
-author: ""
-date: ""
-footnotes: ""
-guid: http://lucasavelar.org/?page_id=9
-parent_post_id: null
-post_id: "9"
 title: Lucas Avelar
 showDate: false
 showAuthor: false

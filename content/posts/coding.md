@@ -1,22 +1,9 @@
 ---
-_edit_last: "1"
-_oembed_96ab46fe4b259c24aa27e9e7bad5d61f: <a class="twitter-timeline" data-width="880" data-height="1000" data-dnt="true" href="https://twitter.com/lucsavelar?ref_src=twsrc%5Etfw">Tweets by lucsavelar</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-_oembed_time_96ab46fe4b259c24aa27e9e7bad5d61f: "1664056649"
-_thumbnail_id: "79"
-_wp_old_slug: thoughts-on-conding
-_wp_page_template: default
-_yoast_wpseo_content_score: "30"
-_yoast_wpseo_estimated-reading-time-minutes: "4"
-_yoast_wpseo_primary_category: "1"
-_yoast_wpseo_wordproof_timestamp: ""
 author: Lucas Avelar
 cover:
   alt: open-source-code-1260x582-4
   image: /wp-content/uploads/2022/09/open-source-code-1260x582-4.jpeg
 date: "2022-09-07T23:43:44+00:00"
-guid: http://lucasavelar.org/?p=1
-parent_post_id: null
-post_id: "1"
 tags:
   - coding
   - digital-history

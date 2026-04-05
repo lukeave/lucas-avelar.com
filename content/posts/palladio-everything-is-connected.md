@@ -1,18 +1,9 @@
 ---
-_edit_last: "1"
-_thumbnail_id: "368"
-_yoast_wpseo_content_score: "30"
-_yoast_wpseo_estimated-reading-time-minutes: "5"
-_yoast_wpseo_primary_category: "1"
-_yoast_wpseo_wordproof_timestamp: ""
 author: Lucas Avelar
 cover:
   alt: palladio logo
   image: /wp-content/uploads/2022/12/palladio-logo-e1678649892335.png
 date: "2022-12-14T14:55:21+00:00"
-guid: http://lucasavelar.org/?p=366
-parent_post_id: null
-post_id: "366"
 title: 'Palladio: Everything is Connected'
 url: /posts/palladio-everything-is-connected/
 

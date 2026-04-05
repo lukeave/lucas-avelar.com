@@ -1,12 +1,4 @@
 ---
-_edit_last: "1"
-_yoast_wpseo_content_score: "60"
-_yoast_wpseo_estimated-reading-time-minutes: "1"
-author: ""
-date: ""
-guid: https://lucasavelar.org/?page_id=1287
-parent_post_id: null
-post_id: "1287"
 title: CV
 showDate: false
 showAuthor: false
