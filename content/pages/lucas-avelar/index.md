@@ -33,11 +33,6 @@ showReadingTime: false
 url: /about/
 
 ---
-[cv](https://drive.google.com/file/d/19N_t4Pua7nB8zN39KYk7eMCyAvC6NoI0/view?usp=sharing)
-
-[github](https://github.com/lukeave)
-
-site em português
 
 {{< figure src="/wp-content/uploads/2023/03/66044AE0-6672-4B9F-80D2-FC870741F186-4-scaled.jpeg" alt="" caption="" >}}
 

@@ -28,11 +28,16 @@ showReadingTime: false
 url: /visualization-tools/
 
 ---
-###### [Time Sensitive](/timesensitiveblog/): A blog about historical research and digital tools.
 
-Voyant, Palladio, and Tableau
+<style>
+h1.post-title { display: none; }
+</style>
 
-Presentation of research findings is just as important as the analysis itself. If you haven't checked out the Presentation Tools page in this website, give it a shot before moving forward. Communication of historical knowledge is indeed important, and the tools I discussed in the previous page can sure help with that. Some digital tools for data visualization, however, go beyond presentation. They enable further inquiry, new answers, and more in-depth analysis of the same data. Voyant, Palladio, and Tableau are examples of visualization tools that are rather crucial for new historical interpretations.
+<h1 style="text-align: center;">Digital Tools for Data Visualization:</h1>
+
+<h1 style="text-align: center;">Voyant, Palladio, and Tableau</h1>
+
+Presentation of research findings is just as important as the analysis itself. If you haven't checked out the Communication Tools page in this website, give it a shot before moving forward. Communication of historical knowledge is indeed important, and the tools I discussed in the previous page can sure help with that. Some digital tools for data visualization, however, go beyond presentation. They enable further inquiry, new answers, and more in-depth analysis of the same data. Voyant, Palladio, and Tableau are examples of visualization tools that are rather crucial for new historical interpretations.
 
 ## Voyant
 

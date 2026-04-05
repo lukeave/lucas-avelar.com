@@ -27,9 +27,13 @@ showReadingTime: false
 url: /communication-tools/
 
 ---
-###### [Time Sensitive](/timesensitiveblog/): A blog about historical research and digital tools.
+<style>
+h1.post-title { display: none; }
+</style>
 
-Omeka and StoryMap
+<h1 style="text-align: center;">Digital Tools for Communication of Research Findings:</h1>
+
+<h1 style="text-align: center;">Omeka and StoryMap</h1>
 
 Between 2017 and 2019, I was a history interpreter and museum guide at the [Rio de Janeiro State Parliament's Tiradentes Palace](http://www.palaciotiradentes.rj.gov.br/). Since its inauguration in 1927, the building served as the national parliament when Rio de Janeiro was the federal district of Brazil. When the Culture Department asked me to contribute to the process of rewriting the history exhibits in the palace, the biggest challenge was to identify the best practices of curatorship and presentation of historical information for a vastly broad audience of daily visitors. One of the most frequent visiting groups was elementary and high school students who could have benefitted from experimenting with the process of curatorship itself. If I had any clue about digital tools back then, maybe that process would have been less challenging. In this page, I want to share my experiences with Omeka and ArcGIS StoryMap as digital tools that can improve presentation and communication of historical information. As I'm about to tell you, my experience with Omeka was not as successful as the opportunities I had to explore StoryMaps.
 

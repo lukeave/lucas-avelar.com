@@ -19,7 +19,7 @@ p, li, td, th, input, textarea, select, button {
 .nav a,
 header nav a,
 .header nav a {
-  font-size: 1.17rem !important;   /* ~30% above PaperMod's default 0.9rem */
+  font-size: 1.17rem !important;
   font-family: var(--aptos-stack) !important;
   font-weight: 500;
 }
@@ -35,4 +35,128 @@ header .logo {
 main.main,
 .main {
   padding-top: 3rem !important;
+}
+
+/* ════════════════════════════════════════
+   POST PAGE STYLES
+   ════════════════════════════════════════ */
+
+/* 1. Hide cover image at the top of individual post pages.
+      The image still appears on the /posts/ list via list.html.   */
+.post-single .post-header .post-cover,
+.post-single figure.entry-cover,
+.post-single .cover img,
+.post-cover {
+  display: none !important;
+}
+
+/* 2. Larger subtitles inside post body */
+.post-content h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+
+.post-content h3 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.35;
+}
+
+.post-content h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.4rem;
+}
+
+/* 3. Expandable "View Code" block — <details> shortcode styles */
+.code-toggle {
+  margin: 1.5rem 0;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.code-toggle summary {
+  cursor: pointer;
+  padding: 0.6rem 1rem;
+  font-family: var(--aptos-stack);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--secondary);
+  background: var(--code-bg);
+  user-select: none;
+  list-style: none;          /* hide default triangle in Firefox */
+}
+
+/* Custom triangle indicator */
+.code-toggle summary::before {
+  content: "▶ ";
+  font-size: 0.7rem;
+  transition: transform 0.2s;
+  display: inline-block;
+}
+
+.code-toggle[open] summary::before {
+  transform: rotate(90deg);
+}
+
+/* Remove default marker in Chrome/Safari */
+.code-toggle summary::-webkit-details-marker {
+  display: none;
+}
+
+.code-toggle summary:hover {
+  color: var(--primary);
+}
+
+.code-toggle-inner {
+  padding: 0;        /* let the code block fill edge-to-edge */
+}
+
+/* Make the code block inside the toggle flush and consistent */
+.code-toggle-inner pre {
+  margin: 0;
+  border-radius: 0;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+/* Force leaflet map iframes to display at full height */
+.post-content iframe {
+  display: block;
+  min-height: 600px;
+}
+
+.post-header {
+  max-width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Footnote reference links in body text */
+.post-content sup a {
+  color: #25C722;
+  text-decoration: none;
+}
+
+.post-content sup a:hover {
+  text-decoration: underline;
+}
+
+/* Hyperlinks within post body */
+.post-content a {
+  color: #25C722;
+  text-decoration: none;
+}
+
+.post-content a:hover {
+  text-decoration: underline;
 }

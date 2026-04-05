@@ -25,9 +25,6 @@ url: /contact-me/
 layout: contact
 
 ---
-[linkedin](https://www.linkedin.com/in/lucasave)
-
-[PROFILE @ CLEMSON UNIVERSITY](https://www.clemson.edu/cah/about/facultybio.html?id=6581)
 
 {{< figure src="/wp-content/uploads/2023/03/66044AE0-6672-4B9F-80D2-FC870741F186-4-scaled.jpeg" alt="" caption="" >}}
 

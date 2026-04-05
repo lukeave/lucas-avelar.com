@@ -28,9 +28,14 @@ layout: scholarship
 ---
 ### Public-Facing Writing
 
-"An Imagined Geography of Empire: Mining cultural representations of the American colonial state during the St. Louis 1904 World’s Fair", December 2023. [/an-imagined-geography-of-empire/](/an-imagined-geography-of-empire/).
+<p style="text-align: center;">
+Check out the  <a href="https://lucas-avelar.com/posts/">Posts page</a> on this website for more public-facing writing on digital history and historical research.
+</p>
 
-"Risky New York: Gendered Spatial Practices Between the Gay City and the Normative City," May 2023. [/uncategorized/risky-new-york/](/uncategorized/risky-new-york/).
+
+"An Imagined Geography of Empire: Mining cultural representations of the American colonial state during the St. Louis 1904 World’s Fair", December 2023. [https://lucas-avelar.com/an-imagined-geography-of-empire/](/an-imagined-geography-of-empire/).
+
+"Risky New York: Gendered Spatial Practices Between the Gay City and the Normative City," May 2023. [https://lucas-avelar.com/posts/risky-new-york/](/posts/risky-new-york/).
 
 "What does Public History have to do with a monument's fate?", _IFPH Bridging_ (July 9, 2020), [https://ifph.hypotheses.org/3241](https://ifph.hypotheses.org/3241.).
 

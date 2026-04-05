@@ -28,9 +28,14 @@ showReadingTime: false
 url: /research-tools/
 
 ---
-###### [Time Sensitive](/timesensitiveblog/): A blog about historical research and digital tools.
+<style>
+h1.post-title { display: none; }
+</style>
 
-Zotero, Tropy, and Airtable
+<h1 style="text-align: center;">Digital Tools for Historical Research:</h1>
+
+<h1 style="text-align: center;">Zotero, Tropy, and Airtable</h1>
+
 
 I never really loved dishwashers. One of the few things that gives me some sense of control over the chaos of life is washing my dishes. I take my time and choose the order, the pace, and the method I will use to get everything clean and dry. I was highly skeptical of Zotero when I first heard about it. And part of me thinks that this is because I like doing my footnotes the same way I like doing my dishes: calmly and one by one. Digital tools focused on research organization like Zotero disrupt my sense of control over the work. Although it is still my job to make sure primary and second sources are organized and effectively stored in database and directory schemas, these tools cut in half the time spent on the dishes of academic work. In this page, I will talk about the effectiveness of Zotero, Tropy, and AirTable as research tools that can improve the historical work of organizing, interpreting, and analyzing sources.
 
