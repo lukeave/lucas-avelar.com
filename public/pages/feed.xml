@@ -32,9 +32,13 @@
 h1.post-title { display: none; }
 &lt;/style&gt;
 &lt;h1 style=&#34;text-align: center;&#34;&gt;An Imagined Geography of Empire:&lt;/h1&gt;
-&lt;h2 id=&#34;mining-cultural-representations-of-the-american-colonial-state-during-the-stlouis-1904-worlds-fair&#34;&gt;Mining cultural representations of the American colonial state during the St. Louis 1904 World’s Fair&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/lukeave/TextAnalysis_StLouisFair&#34;&gt;acess data and code&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/lukeave/TextAnalysis_StLouisFair/blob/526a63c24f3894561c0080cb928f7fe3524aa531/data-ethics-statement.md#an-imagined-geography-of-empire&#34;&gt;read the data ethics statement&lt;/a&gt;&lt;/p&gt;
+&lt;h1 style=&#34;text-align: center;&#34;&gt;Mining cultural representations of the American colonial state during the St. Louis 1904 World’s Fair&lt;/h1&gt;
+&lt;p&gt;
+&lt;div class=&#34;profile-buttons&#34;&gt;
+    &lt;a href=&#34;https://github.com/lukeave/TextAnalysis_StLouisFair&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34; style=&#34;background: linear-gradient(to right, #56ab2f, #a8e063); color: #000 !important; border: none;&#34;&gt;acess data and code&lt;/a&gt;
+     &lt;a href=&#34;https://github.com/lukeave/TextAnalysis_StLouisFair/blob/526a63c24f3894561c0080cb928f7fe3524aa531/data-ethics-statement.md#an-imagined-geography-of-empire&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34; style=&#34;background: linear-gradient(to right, #f093fb, #667eea); color: #000 !important; border: none;&#34;&gt;read the data ethics statement&lt;/a&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;p&gt;In 1902, serving as the first Civilian Governor of the Philippines after a period of American military control over the islands, William Howard Taft traveled to St. Louis to meet with David Francis, the president of the Louisiana Purchase Exposition. The purpose of the meeting was simple: to make the case for a strong, imposing, unprecedented Philippine exhibit at the St. Louis World’s Fair. “[…] If we have your [the executive board’s] help,” Taft said, “we hope to make the Philippine exhibit the great feature of this exposition.”&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; By the end of Taft’s plea, Francis said that “The people of the United States felt that it was their duty to look after the nine or ten millions of people in the Philippines, and guard their interests, give them education and advance them to civilization.”&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; The executive board’s positive reception of Taft’s ideas made the enterprise of the St. Louis World’s Fair a turning point in the history of Filipino-American relations and the legitimation of the emerging American colonial state.&lt;/p&gt;</description>
     </item>
     <item>
@@ -51,8 +55,11 @@ h1.post-title { display: none; }
       <link>http://localhost:1313/communication-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/communication-tools/</guid>
-      <description>&lt;h6 id=&#34;time-sensitive-a-blog-about-historical-research-and-digital-tools&#34;&gt;&lt;a href=&#34;http://localhost:1313/timesensitiveblog/&#34;&gt;Time Sensitive&lt;/a&gt;: A blog about historical research and digital tools.&lt;/h6&gt;
-&lt;p&gt;Omeka and StoryMap&lt;/p&gt;
+      <description>&lt;style&gt;
+h1.post-title { display: none; }
+&lt;/style&gt;
+&lt;h1 style=&#34;text-align: center;&#34;&gt;Digital Tools for Communication of Research Findings:&lt;/h1&gt;
+&lt;h1 style=&#34;text-align: center;&#34;&gt;Omeka and StoryMap&lt;/h1&gt;
 &lt;p&gt;Between 2017 and 2019, I was a history interpreter and museum guide at the &lt;a href=&#34;http://www.palaciotiradentes.rj.gov.br/&#34;&gt;Rio de Janeiro State Parliament&amp;rsquo;s Tiradentes Palace&lt;/a&gt;. Since its inauguration in 1927, the building served as the national parliament when Rio de Janeiro was the federal district of Brazil. When the Culture Department asked me to contribute to the process of rewriting the history exhibits in the palace, the biggest challenge was to identify the best practices of curatorship and presentation of historical information for a vastly broad audience of daily visitors. One of the most frequent visiting groups was elementary and high school students who could have benefitted from experimenting with the process of curatorship itself. If I had any clue about digital tools back then, maybe that process would have been less challenging. In this page, I want to share my experiences with Omeka and ArcGIS StoryMap as digital tools that can improve presentation and communication of historical information. As I&amp;rsquo;m about to tell you, my experience with Omeka was not as successful as the opportunities I had to explore StoryMaps.&lt;/p&gt;</description>
     </item>
     <item>
@@ -115,8 +122,7 @@ Clemson, SC 29634&lt;/p&gt;
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;site em português&lt;/p&gt;
-&lt;figure&gt;
+      <description>&lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2023/03/66044AE0-6672-4B9F-80D2-FC870741F186-4-scaled.jpeg&#34;/&gt; 
 &lt;/figure&gt;
 
@@ -139,8 +145,11 @@ Clemson, SC 29634&lt;/p&gt;
       <link>http://localhost:1313/research-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research-tools/</guid>
-      <description>&lt;h6 id=&#34;time-sensitive-a-blog-about-historical-research-and-digital-tools&#34;&gt;&lt;a href=&#34;http://localhost:1313/timesensitiveblog/&#34;&gt;Time Sensitive&lt;/a&gt;: A blog about historical research and digital tools.&lt;/h6&gt;
-&lt;p&gt;Zotero, Tropy, and Airtable&lt;/p&gt;
+      <description>&lt;style&gt;
+h1.post-title { display: none; }
+&lt;/style&gt;
+&lt;h1 style=&#34;text-align: center;&#34;&gt;Digital Tools for Historical Research:&lt;/h1&gt;
+&lt;h1 style=&#34;text-align: center;&#34;&gt;Zotero, Tropy, and Airtable&lt;/h1&gt;
 &lt;p&gt;I never really loved dishwashers. One of the few things that gives me some sense of control over the chaos of life is washing my dishes. I take my time and choose the order, the pace, and the method I will use to get everything clean and dry. I was highly skeptical of Zotero when I first heard about it. And part of me thinks that this is because I like doing my footnotes the same way I like doing my dishes: calmly and one by one. Digital tools focused on research organization like Zotero disrupt my sense of control over the work. Although it is still my job to make sure primary and second sources are organized and effectively stored in database and directory schemas, these tools cut in half the time spent on the dishes of academic work. In this page, I will talk about the effectiveness of Zotero, Tropy, and AirTable as research tools that can improve the historical work of organizing, interpreting, and analyzing sources.&lt;/p&gt;</description>
     </item>
     <item>
@@ -149,19 +158,24 @@ Clemson, SC 29634&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/scholarship/</guid>
       <description>&lt;h3 id=&#34;public-facing-writing&#34;&gt;Public-Facing Writing&lt;/h3&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;
+Check out the  &lt;a href=&#34;https://lucas-avelar.com/posts/&#34;&gt;Posts page&lt;/a&gt; on this website for more public-facing writing on digital history and historical research.
+&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;An Imagined Geography of Empire: Mining cultural representations of the American colonial state during the St. Louis 1904 World’s Fair&amp;rdquo;, December 2023. &lt;a href=&#34;http://localhost:1313/an-imagined-geography-of-empire/&#34;&gt;https://lucas-avelar.com/an-imagined-geography-of-empire/&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Risky New York: Gendered Spatial Practices Between the Gay City and the Normative City,&amp;rdquo; May 2023. &lt;a href=&#34;http://localhost:1313/posts/risky-new-york/&#34;&gt;https://lucas-avelar.com/posts/risky-new-york/&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;What does Public History have to do with a monument&amp;rsquo;s fate?&amp;rdquo;, &lt;em&gt;IFPH Bridging&lt;/em&gt; (July 9, 2020), &lt;a href=&#34;https://ifph.hypotheses.org/3241.&#34;&gt;https://ifph.hypotheses.org/3241&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;With Christophe Discors. &amp;ldquo;Interview: Reflections on Public History in Brazil and the United States&amp;rdquo;, &lt;em&gt;IFPH Bridging&lt;/em&gt;(July 14, 2021), &lt;a href=&#34;https://ifph.hypotheses.org/3379&#34;&gt;https://ifph.hypotheses.org/3379&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;&amp;ldquo;What does Public History have to do with a monument&amp;rsquo;s fate?&amp;rdquo;, &lt;em&gt;IFPH Bridging&lt;/em&gt; (July 9, 2020), &lt;a href=&#34;https://ifph.hypotheses.org/3241.&#34;&gt;https://ifph.hypotheses.org/3241&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Visualization Tools</title>
       <link>http://localhost:1313/visualization-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/visualization-tools/</guid>
-      <description>&lt;h6 id=&#34;time-sensitive-a-blog-about-historical-research-and-digital-tools&#34;&gt;&lt;a href=&#34;http://localhost:1313/timesensitiveblog/&#34;&gt;Time Sensitive&lt;/a&gt;: A blog about historical research and digital tools.&lt;/h6&gt;
-&lt;p&gt;Voyant, Palladio, and Tableau&lt;/p&gt;
-&lt;p&gt;Presentation of research findings is just as important as the analysis itself. If you haven&amp;rsquo;t checked out the Presentation Tools page in this website, give it a shot before moving forward. Communication of historical knowledge is indeed important, and the tools I discussed in the previous page can sure help with that. Some digital tools for data visualization, however, go beyond presentation. They enable further inquiry, new answers, and more in-depth analysis of the same data. Voyant, Palladio, and Tableau are examples of visualization tools that are rather crucial for new historical interpretations.&lt;/p&gt;</description>
+      <description>&lt;style&gt;
+h1.post-title { display: none; }
+&lt;/style&gt;
+&lt;h1 style=&#34;text-align: center;&#34;&gt;Digital Tools for Data Visualization:&lt;/h1&gt;
+&lt;h1 style=&#34;text-align: center;&#34;&gt;Voyant, Palladio, and Tableau&lt;/h1&gt;
+&lt;p&gt;Presentation of research findings is just as important as the analysis itself. If you haven&amp;rsquo;t checked out the Communication Tools page in this website, give it a shot before moving forward. Communication of historical knowledge is indeed important, and the tools I discussed in the previous page can sure help with that. Some digital tools for data visualization, however, go beyond presentation. They enable further inquiry, new answers, and more in-depth analysis of the same data. Voyant, Palladio, and Tableau are examples of visualization tools that are rather crucial for new historical interpretations.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

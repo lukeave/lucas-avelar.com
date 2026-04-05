@@ -116,9 +116,8 @@ Similarly, the presence of Native tribes from the islands like the Moros, the Ne
 
 In order to assess how cultural commentators characterized the geopolitical entities that were part of the geography of modernity they helped imagining, this project relies on another methodology of the digital humanities: word embedding models (WEM). According to historian Ben Schmidt, word embedding models “try to ignore information about individual documents so that you can better understand the relationships between words.” Using WEM, word vector analysis provides significant insight into the semantic relationships between words in a corpus as it reduces “words into a field where they are purely defined by their relations.”[^48] In this sense, training a model on the sample of newspaper articles unveil how local newspapers relied on particular notions of empire, race, and civilization – even if unintentionally – to produce discursive representations of the modernizing world. To get a broad sense of what kinds of patterns and topics emerge from the corpus, the best strategy is to cluster the words according to their semantic similarity scores multiple times until something interesting shows up. See below:
 
-View code
-
-```
+{{< code-toggle >}}
+```r
 set.seed(15)
 centers = 150
 clustering = kmeans(model,centers=centers,iter.max = 200)
@@ -127,38 +126,38 @@ sapply(sample(1:centers,4),function(n) {
   names(clustering$cluster[clustering$cluster==n][1:10])
 })
 ```
+{{< /code-toggle >}}
 
 {{< figure src="/wp-content/uploads/2023/12/wem-clustering%5Fiter1-1.png" alt="" caption="" >}}
 
 The output above showed up after multiple iterations. It demonstrates that the trained model is suitable for analysis as it is properly clustering words that are semantically similar. Interestingly, “united\_states” and “philippine” show up as two separate clusters, with a strong emphasis on military matters. However, topic clustering through vector models can be a matter of trial and error, and not every clustering iteration will be worth exploring. Even though one of the clusters above is explicitly about the Philippines, it does not reveal anything interesting. A few more iterations were needed until the next output worthy of attention showed up.
 
-View code
-
-```
+{{< code-toggle >}}
+```r
 sapply(sample(1:centers,4),function(n) {
   names(clustering$cluster[clustering$cluster==n][1:10])
 })
 ```
+{{< /code-toggle >}}
 
 {{< figure src="/wp-content/uploads/2023/12/wem-clustering%5Fiter2.png" alt="" caption="" >}}
 
 This time, at least three of the four topic clusters have something worth of exploration. The first group of words revolves around issues of performance, and how groups deemed as “primitive” or “barbaric” displayed on the fairgrounds were often talked about along the lines of cultural performativity. In the third group, words like “example” and “understanding” are associated with native exhibits, in particular of Native American groups. It would also be worth exploring the placement of the word “blood” in that group. The fourth cluster, seemingly centered around the visit of the Roosevelts to the fair, still included the word “filipino”. As expected, OCR errors start to populate the results.
 
-View code
-
-```
+{{< code-toggle >}}
+```r
 sapply(sample(1:centers,4),function(n) {
   names(clustering$cluster[clustering$cluster==n][1:10])
 })
 ```
+{{< /code-toggle >}}
 
 {{< figure src="/wp-content/uploads/2023/12/wem-clustering%5Fiter3.png" alt="" caption="" >}}
 
 With a few more iterations, the results might present more OCR errors and random associations, but they can also become more specific and more useful. Above, the fourth cluster is specifically about the Igorrotes, and words like “dog”, “feast”, and “chief\_antonio” are interesting clues to the themes that newspapers have more commonly focused on when talking about the Igorrote Village at the fair. Meanwhile, the second cluster is relevant as it shows unexpected semantic associations between the Department of War and words like “clothes”, “wear”, and “pants”. Following the hints, the next logical step was to focus on the Department of War and Chief Antonio, one of the tribe chiefs responsible for the Igorrote who practiced the ritual of head hunting. The charts below show the words with the closest similarity score to “chief\_antonio” and “war\_department” respectively:
 
-View code
-
-```
+{{< code-toggle >}}
+```r
 df <- model %>% closest_to("chief_antonio", 20) %>% as.data.frame()
  df %>% ggplot(aes(x = reorder(word, `similarity to "chief_antonio"`), y= `similarity to "chief_antonio"`, labels = )) +
   geom_bar(stat = "identity") +
@@ -170,6 +169,7 @@ df <- model %>% closest_to("chief_antonio", 20) %>% as.data.frame()
    coord_flip() +
    labs(y = "semantic similrity score", x = "words")
 ```
+{{< /code-toggle >}}
 
 {{< figure src="/wp-content/uploads/2023/12/chief-antonio%5Fwar-department.png" alt="" caption="" >}}
 
@@ -179,12 +179,12 @@ The centrality of cultural performativity and authenticity was not only importan
 
 Knowing that some of the most frequent conversations about the Filipino culture in newspapers often compared the Philippine Islands to the United States in term of progress towards civilization and adoption of modern features and customs, it is worth exploring the corpus to understand the words that have a significant score of similarity in relation to the terms “savage” and “progress”. See Figure 3 below.
 
-View code
-
-```
+{{< code-toggle >}}
+```r
 model %>% closest_to("savage", 20)
 model %>% closest_to("progress", 20)
 ```
+{{< /code-toggle >}}
 
 {{< figure src="/wp-content/uploads/2023/12/Avelar%5FSemantic-Similarity-Progress-Savage.png" alt="" caption="" >}}
 
@@ -192,24 +192,24 @@ In the graph above, a few things can be noted about the “savage” list. First
 
 Even more interestingly, one term shows up in both lists: “primitive”. As discussed before, the rhetoric of empire and American exceptionalism at the fair was highly dependent on processes of otherization of non-Western cultures. The appearance of the term “primitive” in both lists is an expected link, a signal from the algorithm that, even though those two universes are allegedly separated, as we have seen in the clothing controversy, they overlap in complex ways in the cultural commentary about the fair and the geopolitical entities that negotiated their modern collective identities on the grounds. Using three words from each list, the graphs bellow sought to visualize the vectorized semantic relationships to “progress”, “civilization”, and “science”, on the one hand, and to “savage”, “primitive”, and “barbaric” on the other hand.[^51]
 
-View code
-
-```
+{{< code-toggle >}}
+```r
 #visualize semantic similarity of "savage" and "progress" based on the previous lists
 modernity = closest_to(model,model[[c("progress", "civilization", "science")]], 60)
 vectors_modernity = model[[modernity$word,average=F]]
 plot(vectors_modernity,method="pca")
 ```
+{{< /code-toggle >}}
 
 {{< figure src="/wp-content/uploads/2023/12/modernity%5FWEM.png" alt="" caption="" >}}
 
-View code
-
-```
+{{< code-toggle >}}
+```r
 otherness = closest_to(model,model[[c("savage", "primitive", "barbaric")]], 60)
 vectors_otherness = model[[otherness$word,average=F]]
 plot(vectors_otherness,method="pca")
 ```
+{{< /code-toggle >}}
 
 {{< figure src="/wp-content/uploads/2023/12/otherness%5FWEM.png" alt="" caption="" >}}
 
@@ -217,9 +217,8 @@ In the first graph, fairly centered in the main cluster of words is the word “
 
 The second graph follows a similar trend in organizing the discourses about the fair through the center-periphery model. This time, however, the Moros from the Philippines are central in the main cluster, surrounded by “barbaric”, “carnival”, “dances”, “wear”, “savage”, “capable”, “guns”, and “head\_hunters” in reference to the Igorrote tribes. Other native groups are then placed on the far right, as if their characterization proves less significant to the rhetoric of empire in display at the fair than the characterization of Moros and Igorrotes. The Lakotas – here, pejoratively referred to as Sioux – and the Cocopas, from North America, the Pygmies from Africa, and the Ainus from Asia show up in this peripheral group. But more importantly, it is worth noting that every side of the visualization contains at least one term related to performance and spectacle. “dancers”, “performance”, “spectators”, “war\_dance”, and “dance”, quite literally, surround the entire graph from the most peripheral level, indicating once again that words like “savage”, “primitive”, and “barbaric” are always associated with cultural performativity.
 
-View code
-
-```
+{{< code-toggle >}}
+```r
 #plot semantic similarity of "savage" and "progress" terms together
 vector_otherness_modernity2 = model[[c(modernity$word, otherness$word),average=F]] # this is a vector model
 progress_score = vector_otherness_modernity2 %>% cosineSimilarity(model[[c("progress", "civilization", "science")]])
@@ -229,6 +228,7 @@ plot(progress_score, savagery_score, type='n', xlab="Similarity to 'progress' te
 abline(a=0,b=1)
 text(progress_score,savagery_score,labels=rownames(vector_otherness_modernity2), cex=.7)
 ```
+{{< /code-toggle >}}
 
 {{< figure src="/wp-content/uploads/2023/12/savagery-progress%5FWEM.png" alt="" caption="" >}}
 
@@ -240,9 +240,8 @@ More importantly, note how most terms in the vector representation above are con
 
 Despite the frequent co-occurrence of those seemingly binary conceptual universes, the ways in which local newspapers generated representations of the Filipino and the American cultures in a comparative fashion were far from binary. Cultural commentators reflected on the controversies regarding the invention of a homogeneous Filipino identity, and the implications of having so-called savage groups attracting the attention of visitors at the Philippine exhibit. The rendering of Filipino culture as less civilized, on the one hand, benefited the narrative of American benevolent assimilation. On the other hand, by exposing the nuanced distinctions between Hispanicized, Catholic Filipinos and the “primitive” tribes, newspapers represented the Philippines as a nation actively moving towards civilization under the guidance of the United States. The graph below seeks to visualize this complex “civilizing movement” in a vector space:
 
-View code
-
-```
+{{< code-toggle >}}
+```r
 vector_otherness_modernity = model[[c(modernity$word, otherness$word),average=F]]
 american_filipino_relations = data.frame(word = rownames(vector_otherness_modernity))
 
@@ -261,6 +260,7 @@ ggplot(american_filipino_relations, aes(x=american_vs_filipino, y=progress_vs_sa
 ## Warning: Removed 31 rows containing missing values (`geom_text()`).
 
 ```
+{{< /code-toggle >}}
 
 {{< figure src="/wp-content/uploads/2023/12/ggplot%5Famerican-filipino-relations.png" alt="" caption="" >}}
 
