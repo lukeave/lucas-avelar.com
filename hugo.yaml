@@ -67,3 +67,6 @@ menu:
     - name: How to Reach Me
       url: /contact-me/
       weight: 5
+    - name: Office Hours
+      url: https://fantastical.app/ldavela/office-hours
+      weight: 6
